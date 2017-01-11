@@ -1,0 +1,474 @@
+.greenhigh {
+  color:#9bff8d;
+}
+.button {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  background-color: #9bff8d;
+  border: none;
+  color: #222222;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10pt;
+  border-radius: 12px;
+  transition: color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+.button:hover {
+  color: white;
+  background-color: #74b76b;
+}
+.col {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+}
+.col2 {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+body {
+  background-color: #161616;
+}
+.hide {
+  display: none!important;
+}
+.center {
+  margin-left: 30%!important;
+}
+.darkenExtend {
+  background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("images/herobg.jpg") center!important;
+  padding-bottom: 50px!important;
+}
+.show {
+  display: block!important;
+}
+/** Hero --------------------------------- **/
+nav {
+  padding: 5px 75px;
+}
+nav h1 { /** Logo **/
+  font-family: 'Oswald', sans-serif;
+  font-size: 40pt;
+  margin: 0;
+  display: inline-block;
+  color: white;
+}
+nav ul {
+  padding: 20px 0 0 0;
+  display: inline-block;
+  float: right;!important
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+}
+nav li a {
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  font-size: 20pt;
+  color: white;
+  padding: 0 20px;
+  transition: color 0.5s ease;
+}
+nav li a:hover {
+  color: #9bff8d;
+}
+/**----**/
+.hero {
+  background: url("images/herobg.jpg") center;
+}
+.heroinfo {
+  width: 45%;
+  display: block;
+  margin: 7% 0% 0% 50%;
+  padding-bottom: 12%;
+  color: white;
+}
+.heroinfo h2 { /** Hero Title **/
+  font-family: 'Oswald', sans-serif;
+  line-height: 65pt;
+  letter-spacing: 5px;
+  margin: 0; padding: 0;
+  font-size: 50pt;
+  text-align: center;
+  display: block;
+}
+.heroinfo p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin: 30px 0 0 0; padding: 0;
+  font-size: 25pt;
+  text-align: center;
+  display: block;
+}
+.heroinfo a {
+  display: inline-block;
+  width: 125px;
+  margin: 20px 20px 0px 20px;
+}
+.links {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero .arrow {
+  width: 6%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/** Essentials ---------------------**/
+.essen {
+  background-color: #222222;
+  background: url("images/dirt.jpg");
+}
+.essen h3 {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  font-size: 50pt;
+  text-align: center;
+  color: white;
+}
+.essen p {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+  color: white;
+  margin: 0;
+}
+.title {
+  position: relative;
+  top: 30px;
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15pt;
+  transition: color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+.title:hover {
+  color: #9bff8d
+}
+.essen img {
+  width: 100%;
+  -webkit-filter: grayscale(25%);
+  filter: grayscale(50%);
+  position: relative;
+  top: 40px;
+  z-index:1;
+}
+.essen img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+/** Pets -------------------------**/
+.pet {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background: url("images/petbg.jpg") top;
+}
+.pet h4{
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  font-size: 50pt;
+  text-align: center;
+}
+.pet p{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+  margin: 0 0 25px 0;
+}
+.pet a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.petInfo {
+  width: 45%;
+  display: block;
+  margin: 0 0 0 10%;
+  color: white;
+}
+/** Decor -------------------------**/
+.decor {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background: url("images/decorbg.jpg") center;
+  background-color: red;
+}
+.decor h5{
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  font-size: 50pt;
+  text-align: center;
+}
+.decor p{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+  margin: 0 0 25px 0;
+}
+.decor a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.decorInfo {
+  width: 45%;
+  display: block;
+  margin: 0 0 0 50%;
+  color: white;
+}
+/** Footer ----------------------------------**/
+.footBack {
+  background-image: url("images/dirt.jpg");
+}
+footer {
+  background-color: #222222;
+  color: white;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer li {
+  list-style: none;
+  padding: 12px;
+}
+footer .facebook {
+  display: block;
+  width: 50px;
+  margin-top: 10px;
+}
+footer .faceClick {
+  display: inline-block;
+  padding: 0 25px;
+}
+footer .map {
+  display: block;
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+}
+footer ul {
+  margin: 0;
+}
+/** HIDE RESPONSIVE ELEMENTS **/
+  nav img {
+    width: 50px;
+    display: none;
+    padding-top: 5px;
+    float: right;
+  }
+  .repNav {
+    display: none;
+    margin: 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%!important;
+  }
+/** RESPONSIVE TABLET **/
+@media screen and (max-width: 1100px) and (min-width: 501px) {
+  .desktopNav {
+    display: none;
+  }
+  nav h1 {
+      font-size: 20pt;
+  }
+  nav img {
+    display: inline-block;
+  }
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url("images/herobg.jpg") center;
+  }
+  .heroinfo {
+    width: 90%;
+  }
+  .heroinfo h2 {
+    font-size: 40pt;
+    line-height: 60px;
+    letter-spacing: 0;
+  }
+  .heroinfo p {
+    font-size: 15pt;
+  }
+  .heroinfo a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-size: 9pt;
+  }
+  .heroinfo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    padding-bottom: 5%!important;
+  }
+  .hero .arrow {
+    display: none;
+  }
+  .essen h3 {
+    font-size: 40pt;
+  }
+  .essen p {
+    font-size: 15pt;
+  }
+  .pet {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url("images/petbg.jpg") top;
+  }
+  .petInfo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pet h4 {
+    font-size: 40pt;
+  }
+  .pet p {
+    font-size: 15pt;
+  }
+  .pet a {
+    width: 40%;
+  }
+  .decor {
+      background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url("images/decorbg.jpg") center;
+  }
+  .decorInfo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .decor h5 {
+    font-size: 40pt;
+  }
+  .decor p {
+    font-size: 15pt;
+  }
+  .decor a {
+    width: 40%;
+  }
+}
+/** Responsive Phone **/
+@media screen and (max-width: 500px) {
+  .decor {
+      background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url("images/decorbg.jpg") center;
+      background-size: cover;
+  }
+  .pet {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url("images/petbg.jpg") top;
+    background-size: cover;
+  }
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url("images/herobg.jpg") center;
+    background-size: cover;
+  }
+  .desktopNav {
+    display: none;
+  }
+  nav h1 {
+      font-size: 15pt;
+  }
+  nav img {
+    display: inline-block;
+    width: 10%;
+  }
+  .heroinfo h2 {
+    font-size: 20pt;
+    line-height: 35px;
+    letter-spacing: 0;
+  }
+  .heroinfo p {
+    display: none;
+  }
+  .heroinfo a {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 8pt;
+  }
+  .heroinfo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    padding-bottom: 5%!important;
+    width: 90%;
+  }
+  .hero .arrow {
+    display: none;
+  }
+  .essen h3 {
+    font-size: 20pt;
+  }
+  .essen p {
+    font-size: 10pt;
+  }
+  .essen a {
+    font-size: 10pt;
+  }
+  .essen img {
+    top: 30px;
+  }
+  .petInfo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pet h4 {
+    font-size: 20pt;
+  }
+  .pet p {
+    margin-bottom: 10px;
+    font-size: 10pt;
+  }
+  .pet a {
+    width: 50%;
+    font-size: 8pt;
+  }
+  .decorInfo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .decor h5 {
+    font-size: 20pt;
+  }
+  .decor p {
+    margin-bottom: 10px;
+    font-size: 10pt;
+  }
+  .decor a {
+    width: 50%;
+    font-size: 8pt;
+  }
+  .col2 {
+      display: block;
+      width: 100%;
+  }
+  footer {
+    font-size: 8pt;
+  }
+  footer ul {
+    padding: 0;
+  }
+  .colSep {
+    display: inline-block;
+    width: 50%;
+  }
+}

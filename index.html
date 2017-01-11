@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Duck Duck Design</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid squash"> <!-- HEADER -->
+        <div class="row head">
+          <div class="col-sm-6">
+            <h1>Duck Duck<br><span class="design">DESIGN</span></h1>
+          </div>
+          <div class="col-sm-6">
+            <ul>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid heroBg squash"> <!-- HERO --->
+      <div class="container hero">
+        <h2>Passion. Creativity. Drive.</h2>
+        <p>All these buzz words and more find their home here.</p>
+        <a href="#work" class="button">My Work</a>
+      </div>
+    </div>
+
+    <div class="container-fluid aboutBg" id="about"> <!-- ABOUT -->
+      <div class="container about">
+        <div class="row aboutContainer">
+            <h3>Who am I?</h3>
+            <p class="subHeading">Great Question</p>
+            <p class="info">I'm Cody.<br>
+            I'am a third year Computer Science student who is about to graduate from Murdoch University with
+            a uncontrollable passion for web development.<br>
+            I want to continue this passion with a job or internship. Check out my work and skills below and
+            contact me if you are interested.</p>
+          </div>
+          <div class="row skills"> <!-- SKILLS -->
+            <div class="col-sm-6">
+            <div class="col"> <!--BUTTONS -->
+              <button class="buttonSkill codeButton"><img src="images/code.png" class="codeImg"></button>
+            </div><!--
+            --><div class="col">
+              <button class="buttonSkill desButton"><img src="images/design.png" class="designImg"></button>
+            </div><!--
+            --><div class="col">
+              <button class="buttonSkill pasButton"><img src="images/passion.png" class="pasImg"></button>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="codeDets formatInfo"> <!-- INFO -->
+              <p class="skillTitle">Speaking my Language</p>
+              <p>With four years of coding experience I have the ability to make complex and clean code
+              quickly.</p>
+              <p class="skillSubTitle">C, C++, Java, SQL, HTML, CSS, JavaScript, Jquery, Ruby, Bootstrap</p>
+            </div>
+            <div class="designDets formatInfo">
+              <p class="skillTitle">Eye for design</p>
+              <p>I have gained a keen knowledge of design through electives in graphic design, a Dux award
+                for visual arts in high school and a love for design in general.</p>
+              <p class="skillSubTitle">proficient skills in both Adobe Photoshop and Illustrator</p>
+            </div>
+            <div class="passionDets formatInfo">
+              <p class="skillTitle">This is my passion</p>
+              <p>Web development is something that drives me.<br>This isn't just another buzz word. This
+                stuff is what gets me up in the morning.</p>
+              <p class="skillSubTitle">Check out my work below, made with passion</p>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="button">Contact</a>
+      </div>
+    </div>
+
+    <div class="container-fluid squash workBg" id="work"> <!-- WORK --->
+      <div class="container work">
+        <h4>My Work</h4>
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="Collie Garden Center/index.html" target="_blank"><img src="images/gardenScreen.jpg"></a>
+            <p class="workTitle">Collie Garden Centre</p>
+            <p class="workSubTitle">HTML/CSS/Responsive</p>
+          </div>
+          <div class="col-sm-4">
+            <a href="Jon Beck/index.html" target="_blank"><img src="images/jonBeckScreen.jpg"></a>
+            <p class="workTitle">Jon Beck Photography</p>
+            <p class="workSubTitle">HTML/CSS/Javascript/Responsive</p>
+          </div>
+          <div class="col-sm-4">
+            <p class="workTitle topSquash">More work coming soon</p>
+            <p class="workSubTitle">Contact me for more information</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid squash" id="contact"> <!-- CONTACT --->
+      <div class="container contact">
+          <h5>Interested?</h5>
+          <p>Shoot me an email</p>
+          <form action="mailto:cody.hennighan@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+              <label for="usr">Name</label>
+              <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control messageStyle" rows="5" id="message"></textarea>
+            </div>
+              <button type="submit" class="button" value="Send">Shoot</button>
+          </form>
+      </div>
+    </div>
+
+    <div class="container-fluid footerBg"> <!-- FOOTER -->
+      <div class="footer">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>Created by Cody Hennighan, 2016</p>
+          </div>
+          <div class="col-sm-6">
+            <a href="#"><span class="glyphicon glyphicon-chevron-up"></span> Back to Top</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JS -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

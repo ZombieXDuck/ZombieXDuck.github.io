@@ -1,0 +1,206 @@
+body {
+  background: url('../images/hazebg.jpg') no-repeat black;
+  background-size: 110%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/** Hero  ---------------------------------------- **/
+
+nav.main-menu {
+  margin: 30px 0 0 100px;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+
+nav.main-menu ul li {
+  display: inline-block;
+  list-style: none;
+    width: 30%;
+}
+
+nav.main-menu ul li a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-size: 1vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.haze {
+  display: inline-block;
+  text-align: center;
+  width: 35%;
+  margin: 0 0 0 5%;
+  padding: 0% 1.5% 0% 1.5%;
+  background: rgba(0,0,0,0.25);
+}
+
+.haze img {
+  margin-top: 30px;
+  width: 35%;
+}
+
+.haze h1 {
+  font-size: 8vw;
+  text-decoration: underline;
+  margin: 40% 0 10px 0;
+  color: white;
+  font-family: 'Share', cursive;
+}
+
+.haze p {
+  display: block;
+  margin: 0 0 25% 0;
+  color: white;
+  font-size: 1.5vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+
+/* GALLERY -------------------------------- */
+.gallery {
+  background: rgba(0,0,0,0.25);
+  width: 80%;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.gallery img {
+  width: 24%;
+}
+
+.gallery a {
+  text-decoration: none;
+}
+
+/** ABOUT ------------------------------- **/
+.about {
+  background: rgba(0,0,0,0.25);
+  width: 80%;
+  margin-left: auto ;
+  margin-right: auto ;
+  text-align: center;
+}
+
+.about h2 {
+  color: white;
+  font-family: 'Share', cursive;
+  font-size: 2.5vw;
+}
+
+.about p {
+  margin: 2% 0 5% 0;
+  padding:0 0 5% 0;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5vw;
+}
+
+
+/** FOOTER ----------------------------------------- **/
+footer.footer ul {
+  text-align: center;
+}
+
+footer.footer ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 2%;
+}
+
+footer.footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+footer.footer p {
+  text-align: center;
+  font-size: 1vw;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.footsocial {
+  display: none;
+}
+
+/* RESPONSIVE TABLET -------------------------------------------- */
+@media screen and (max-width: 768px){
+  /* HERO ------- */
+  .haze {
+    width: 50%;
+  }
+  .haze p {
+    font-size: 2vw;
+    margin-bottom: 5%;
+  }
+  .haze a {
+    font-size: 3vw;
+    margin-bottom: 30%;
+  }
+  .haze h1 {
+    margin-top: 10%;
+  }
+  nav.main-menu {
+    margin: 10px 0 0 0;
+  }
+  nav.main-menu ul li {
+    display: block;
+  }
+  nav.main-menu ul li a{
+    font-size: 3vw;
+    padding: 15%;
+    text-decoration: underline;
+}
+
+  .socialmedia {
+    display: none;
+  }
+  /*FOOTER -------------------------------- */
+  footer.footer {
+    background: url('../images/footerbg.jpg') no-repeat black;
+    background-size: 100%;
+  }
+
+  .footerdropbox {
+    margin-left: 12.5%;
+    width: 75%;
+    background: rgba(0,0,0,0.5);
+  }
+
+  .footsocial {
+    display: block;
+    text-align: center;
+  }
+
+  footer.footer p {
+    font-size: 2.5vw;
+    margin-left: 2.5%;
+    margin: 0;
+  }
+
+  footer.footer img {
+    width: 10vw;
+    padding: 0 5% 0 5%;
+  }
+
+  footer.footer ul {
+    padding: 0;
+  }
+
+  footer.footer ul li a {
+    display: block;
+    font-size: 3vw;
+    padding: 1.5%;
+    border: 1px solid white;
+  }
+}

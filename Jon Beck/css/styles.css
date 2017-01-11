@@ -1,0 +1,630 @@
+
+body {
+      background-color: grey;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/** Hero  ---------------------------------------- **/
+.hero {
+  background: url('../images/hazebg.jpg') no-repeat black;
+  background-size: 100%;
+}
+
+nav.main-menu {
+  margin: 30px 0 0 100px;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+
+nav.main-menu ul li {
+  display: inline-block;
+  list-style: none;
+    width: 30%;
+}
+
+nav.main-menu ul li a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-size: 1vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.haze {
+  display: inline-block;
+  text-align: center;
+  width: 35%;
+  margin: 0 0 0 5%;
+  padding: 0% 1.5% 0% 1.5%;
+  background: rgba(0,0,0,0.25);
+}
+
+.haze img {
+  margin-top: 30px;
+  width: 35%;
+}
+
+.haze h1 {
+  font-size: 10vw;
+  text-decoration: underline;
+  margin: 40% 0 10px 0;
+  color: white;
+  font-family: 'Share', cursive;
+}
+
+.haze p {
+  display: block;
+  margin: 0 0 50px 0;
+  color: white;
+  font-size: 1.5vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+
+.buyprints {
+  display:block;
+  text-decoration: none;
+  color: white;
+  font-size: 2vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border: 1px solid white;
+  margin-bottom: 50%;
+}
+
+/** BUY ------------------------------------------ **/
+.buybg {
+  background: url('../images/buybg.png') no-repeat black;
+  background-size: 100%;
+}
+
+.buy {
+  display: inline-block;
+  width: 35%;
+  margin: 0 0 0 5%;
+  padding: 0% 1.5% 0% 1.5%;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+}
+
+.buy h2 {
+  color: white;
+  font-size: 10vw;
+  text-decoration: underline;
+  margin: 32% 0 0 0;
+  font-family: 'Share', cursive;
+}
+
+.buy p {
+  color: white;
+  font-size: 1.5vw;
+  margin: 3% 0 0 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.buy a {
+  margin: 10% 0 44.5% 0;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 2vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border: 1px solid white;
+}
+
+.fprints {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20% 0 0 35%;
+  padding: 1.5%;
+  background: rgba(0,0,0,0.5);
+}
+
+.fprints p {
+  text-align: center;
+  font-size: 1vw;
+  margin-bottom: 10%;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.fprints a {
+  padding-top: 100%;
+}
+
+.fprints img {
+  width: 5vw;
+}
+
+img.featuredgallery {
+  display: none;
+}
+
+/** LEARN -------------------------------------------------------- **/
+.learnbg {
+  background: url('../images/learnbg.png') no-repeat black;
+  background-size: 100%;
+}
+
+.fdeals {
+  display: inline-block;
+  vertical-align: top;
+  margin:25% 35% 0 4%;
+  padding: 1.5%;
+  background: rgba(0,0,0,0.5);
+}
+
+.fdeals p {
+  margin-bottom: 10%;
+  font-size: 1vw;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+  .fdeals a {
+    padding-top:80%;
+  }
+
+
+.fdeals img {
+  width: 5vw;
+  margin-left: 10%;
+}
+
+.learn {
+  display: inline-block;
+  width: 35%;
+  margin: 0 0 0 5%;
+  padding: 0% 1.5% 0% 1.5%;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+}
+
+.learn h3 {
+  color: white;
+  font-size: 10vw;
+  text-decoration: underline;
+  margin: 43.5% 0 0 0;
+  font-family: 'Share', cursive;
+}
+
+.learn p {
+  color: white;
+  font-size: 1.5vw;
+  margin: 3% 0 0 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.learn a{
+  margin: 10% 0 43.5% 0;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 2vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border: 1px solid white;
+}
+
+/**DETAILS -------------------------------------------------------- **/
+.detailsbg {
+  background: url('../images/detailsbg2.png') no-repeat black;
+  background-size: 100%;
+}
+
+.about {
+  display: inline-block;
+  width: 35%;
+  margin: 0 0 0 5%;
+  padding: 0% 1.5% 0% 1.5%;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+}
+
+.about h4 {
+  color: white;
+  font-size: 10vw;
+  text-decoration: underline;
+  margin: 45% 0 0 0;
+  font-family: 'Share', cursive;
+}
+
+.about p {
+  margin: 3% 0 0 0;
+  color: white;
+  font-size: 1.5vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.about a{
+  margin: 10% 0 36.75% 0;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 2vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border: 1px solid white;
+}
+
+.socialmedia {
+  display: inline-block;
+  vertical-align: top;
+  width: 22.5%;
+  margin: 25% 0% 0 27%;
+  padding: 0% 0% 0% 0%;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+}
+
+.socialmedia p {
+  color: white;
+  margin: 20px 0 0 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1vw;
+}
+
+.socialmedia img {
+  width: 5vw;
+}
+
+/** FOOTER ----------------------------------------- **/
+footer.footer ul {
+  text-align: center;
+}
+
+footer.footer ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 2%;
+}
+
+footer.footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+footer.footer p {
+  text-align: center;
+  font-size: 1vw;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.footsocial {
+  display: none;
+}
+
+/* RESPONSIVE TABLET -------------------------------------------- */
+@media screen and (max-width: 768px) and (min-width: 400px) {
+  /* HERO ------- */
+  .haze {
+    width: 50%;
+  }
+  .haze p {
+    font-size: 2vw;
+    margin-bottom: 5%;
+  }
+  .haze a {
+    font-size: 3vw;
+    margin-bottom: 30%;
+  }
+  .haze h1 {
+    margin-top: 10%;
+  }
+  nav.main-menu {
+    margin: 10px 0 0 0;
+  }
+  nav.main-menu ul li {
+    display: block;
+  }
+  nav.main-menu ul li a{
+    font-size: 3vw;
+    padding: 15%;
+    text-decoration: underline;
+
+  }
+  /* BUY ----------- */
+  .buy {
+    width: 50%;
+  }
+
+  .buy h2 {
+    margin-top: 15%;
+  }
+
+  .buy p {
+    font-size: 2vw;
+  }
+
+  .buy a {
+    font-size: 3vw;
+    margin-bottom: 30%;
+  }
+
+  .fprints {
+    margin-left: 20%;
+    padding: 3%;
+  }
+
+  .fprints p {
+    font-size: 1.5vw;
+    margin-bottom: 20%;
+  }
+
+  .fprints img {
+    width: 7.5vw;
+  }
+  /*LEARN ----------------- */
+  .learn {
+    width: 50%;
+  }
+
+  .learn h3 {
+    margin-top: 15%;
+  }
+
+  .learn p{
+    font-size: 2vw;
+  }
+
+  .learn a {
+    font-size: 3vw;
+    margin-bottom: 20%;
+    padding: 3%;
+  }
+
+  .fdeals {
+    padding: 3%;
+    margin-right:17%;
+  }
+
+  .fdeals p {
+    font-size: 1.5vw;
+    margin-bottom: 20%;
+  }
+
+  .fdeals img {
+    width: 7.5vw;
+  }
+  /*ABOUT ------------------------ */
+  .about {
+    width: 50%;
+  }
+
+  .about h4 {
+    margin-top: 15%;
+  }
+
+  .about p{
+    font-size: 2vw;
+  }
+
+  .about a {
+    font-size: 3vw;
+    margin-bottom: 15%;
+    padding: 3%;
+  }
+
+  .socialmedia {
+    display: none;
+  }
+  /*FOOTER -------------------------------- */
+  footer.footer {
+    background: url('../images/footerbg.jpg') no-repeat black;
+    background-size: 100%;
+  }
+
+  .footerdropbox {
+    margin-left: 12.5%;
+    width: 75%;
+    background: rgba(0,0,0,0.5);
+  }
+
+  .footsocial {
+    display: block;
+    text-align: center;
+  }
+
+  footer.footer p {
+    font-size: 2.5vw;
+    margin-left: 2.5%;
+    margin: 0;
+  }
+
+  footer.footer img {
+    width: 10vw;
+    padding: 0 5% 0 5%;
+  }
+
+  footer.footer ul {
+    padding: 0;
+  }
+
+  footer.footer ul li a {
+    display: block;
+    font-size: 3vw;
+    padding: 1.5%;
+    border: 1px solid white;
+  }
+}
+/* RESPONSIVE PHONE ---------------------------------------------- */
+@media screen and (max-width: 399px) {
+  /* HERO ------- */
+  nav.main-menu {
+    margin: 0;
+    display: block;
+    width: 90%;
+    overflow: hidden;
+  }
+
+  nav.main-menu ul {
+    display: block;
+    width: 90%;
+  }
+
+  nav.main-menu ul li {
+    display: inline-block;
+    list-style: none;
+    width: 30%;
+  }
+
+  nav.main-menu ul li a {
+    font-size: 5vw;
+  }
+
+  .haze {
+    width: 90%;
+  }
+
+  .haze img {
+    margin-top: 30px;
+    width: 50%;
+    margin-top: 25%;
+    margin-bottom: 27%;
+  }
+
+  .haze h1 {
+    display: none;
+  }
+
+  .haze p {
+    display: none;
+  }
+
+  .buyprints {
+    display: none;
+  }
+  .buybg {
+    background: url('../images/buybg.png') no-repeat black;
+    background-size: 100%;
+  }
+  /* BUY -------------- */
+  .buy {
+    width: 90%;
+  }
+
+  .buy h2 {
+    font-size: 7.5vw;
+    margin: 5% 0 0 0;
+  }
+
+  .buy p {
+    font-size: 2.5vw;
+    margin: 3% 0 0 0;
+  }
+
+  .buy a {
+    margin: 5% 0 5% 0;
+    font-size: 3vw;
+    padding: 3%;
+  }
+
+  .fprints {
+    display: none;
+  }
+  /** LEARN -------------------------------------------------------- **/
+  .fdeals {
+    display: none;
+  }
+
+  .learn {
+    display: inline-block;
+    width: 90%;
+    padding: 0% 1.5% 0% 1.5%;
+  }
+
+  .learn h3 {
+    font-size: 7.5vw;
+    margin: 5% 0 0 0;
+  }
+
+  .learn p {
+    font-size: 2.5vw;
+    margin: 3% 0 0 0;
+  }
+
+  .learn a{
+    margin: 5% 0 5% 0;
+    display: block;
+    font-size: 3vw;
+    padding: 3%;
+  }
+
+  /**DETAILS -------------------------------------------------------- **/
+  .about {
+    width: 90%;
+    margin: 0 0 0 5%;
+    padding: 0% 1.5% 0% 1.5%;
+  }
+
+  .about h4 {
+    font-size: 7.5vw;
+    margin: 5% 0 0 0;
+  }
+
+  .about p {
+    margin: 3% 0 0 0;
+    font-size: 2.5vw;
+  }
+
+  .about a{
+    margin: 10% 0 5% 0;
+    font-size: 3vw;
+    padding: 3%;
+  }
+
+  .socialmedia {
+    display: none;
+  }
+
+  .socialmedia p {
+    margin: 20px 0 0 0;
+    font-size: 1vw;
+  }
+  /*FOOTER -------------------------------- */
+  footer.footer {
+    background: url('../images/footerbg.jpg') no-repeat black;
+    background-size: 100%;
+  }
+
+  .footerdropbox {
+    margin-left: 12.5%;
+    width: 75%;
+    background: rgba(0,0,0,0.5);
+  }
+
+  .footsocial {
+    display: block;
+    text-align: center;
+  }
+
+  footer.footer p {
+    font-size: 2.5vw;
+    margin-left: 2.5%;
+    margin: 0;
+  }
+
+  footer.footer img {
+    width: 10vw;
+    padding: 0 5% 0 5%;
+  }
+
+  footer.footer ul {
+    margin: auto;
+    padding: 0;
+  }
+
+  footer.footer ul li a {
+    display: block;
+    font-size: 2vw;
+    padding: 1.5%;
+    border: 1px solid white;
+  }
+}

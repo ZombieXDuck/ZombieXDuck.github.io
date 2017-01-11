@@ -1,0 +1,396 @@
+/** Blanket Statements **/
+.squash {
+  margin: 0 100px;
+}
+.button {
+    background-color: #69eae6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12.5pt;
+    -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+}
+.button:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #4ba3a0;
+}
+.col {
+  width: 33%;
+  display: inline-block;
+}
+.buttonSkill {
+  background-color: Transparent;
+  outline:none;
+  border: none;
+}
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
+/** Header ***/
+.head {
+  padding: 10px 0;
+}
+.head h1 {
+  margin: 0;
+  font-family: 'Bree Serif', serif;
+  font-size: 30pt;
+  line-height: 35px;
+}
+.design {
+  font-family: 'Open Sans', sans-serif!important;
+  font-weight: bold;
+  font-size: 25pt;
+  letter-spacing: 12.5px;
+  color: #69eae6;
+}
+.head ul {
+  margin: 0;
+  padding-top: 20px;
+  list-style: none;
+  float: right;
+}
+.head li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.head a {
+  font-family: 'Open Sans', sans-serif!important;
+  font-weight: bold;
+  font-size: 15pt;
+  color: black;
+  text-decoration: none;
+}
+/** Hero ***/
+.heroBg {
+  background: black url("../images/heroBg.png") no-repeat left top;
+  background-size: cover;
+}
+.hero {
+  padding: 320px 0 260px 0;
+  text-align: center;
+  color: white;
+}
+.hero h2 {
+  font-family: 'Open Sans', sans-serif!important;
+  font-weight: bold;
+  font-size: 70pt;
+}
+.hero p {
+  font-family: 'Bree Serif', serif;
+  font-size: 20pt;
+}
+/** About **/
+.aboutBg {
+  background-color: #222222;
+}
+.about {
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+}
+.aboutContainer {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+.about h3 {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 45pt;
+}
+.subHeading {
+  font-family: 'Bree Serif', serif;
+  font-size: 20pt;
+}
+.info {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15pt;
+}
+.skills img {
+  max-width:75px;
+}
+.formatInfo {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+}
+.skillTitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15pt;
+}
+.skillSubTitle {
+  font-family: 'Bree Serif', serif;
+  font-size: 10pt;
+  opacity: 0.5;
+  font-style: italic;
+}
+.designDets, .passionDets {
+  display: none;
+}
+.skills {
+  margin-bottom: 25px;
+}
+/** Work **/
+.workBg {
+  background: black url("../images/workBg.png") no-repeat left center;
+  background-size: cover;
+  height: 800px;
+}
+.workTitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20pt;
+}
+.workSubTitle {
+  font-family: 'Bree Serif', serif;
+  font-size: 10pt;
+  opacity: 0.5;
+  font-style: italic;
+  padding-bottom: 50px;
+}
+.topSquash {
+  padding-top: 75px;
+}
+.work h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 70pt;
+  color: white;
+  text-align: center;
+  margin: 175px 0 75px 0;
+}
+.work p {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+.work img {
+  width: 90%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+/** Contact **/
+.contact h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 70pt;
+  color: black;
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+.contact p {
+  font-family: 'Bree Serif', serif;
+  font-size: 20pt;
+  color: #222222;
+  text-align: center;
+}
+form {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #222222;
+  padding-bottom: 25px;
+}
+form label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+}
+form button {
+  text-align: center;
+}
+input[type=text] {
+    border: none;
+    color: #222222;
+}
+input[type=email] {
+    border: none;
+    color: #222222;
+}
+.messageStyle {
+  border: none;
+  color: #222222;
+}
+button {
+  display: block;
+  margin: 0 auto;
+}
+/** Footer **/
+.footerBg {
+  background-color: #222222;
+}
+.footer {
+    margin: 40px 200px 10px 200px;
+}
+.footer p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  color: white;
+}
+.footer a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  text-decoration: none;
+  color: white;
+  float: right;
+}
+/** TABLET RESPONSIVE **/
+@media only screen and (max-width: 970px) and (min-width: 769px)  {
+  /** HEAD **/
+  .head h1 {
+    font-size: 25pt;
+      line-height: 30px;
+  }
+  .design {
+    font-size: 20pt;
+  }
+  .head a {
+    font-size: 12.5pt;
+  }
+  /** HERO **/
+  .hero {
+    padding: 250px 0 190px 0;
+  }
+  .hero h2 {
+    font-size: 50pt;
+  }
+  .hero p {
+    font-size: 15pt;
+  }
+  /** ABOUT **/
+  .about h3 {
+    font-size: 40pt;
+  }
+  .subHeading {
+    font-size: 17.5pt;
+  }
+  .info {
+    font-size: 14pt;
+  }
+  .formatInfo {
+    font-size: 11pt;
+  }
+  .skillTitle {
+    font-size: 15pt;
+  }
+  .skillSubTitle {
+    font-size: 10pt;
+  }
+  /** WORK **/
+  .work h4 {
+    font-size: 50pt;
+      margin-top: 100px;
+  }
+  .workBg {
+    height: 650px;
+  }
+  /** CONTACT **/
+  .contact h5 {
+    font-size: 50pt;
+  }
+  .contact p {
+    font-size: 17.5pt;
+  }
+}
+/** PHONE RESPONSIVE **/
+@media only screen and (max-width: 768px)  {
+  /** BLANKET STATEMENTS **/
+  .squash {
+    margin: 0 0;
+  }
+  .button {
+    font-size: 10pt;
+  }
+  /** HEAD **/
+  .head h1 {
+    font-size: 25pt;
+    line-height: 30px;
+    text-align: center;
+  }
+  .design {
+    font-size: 20pt;
+    letter-spacing: 10px;
+  }
+  .head ul {
+    float: none;
+    text-align: center;
+    padding: 15px 0 5px 0;
+  }
+  .head a {
+    font-size: 13pt;
+  }
+  /** HERO **/
+  .hero {
+    padding: 100px 0 100px 0;
+  }
+  .hero h2 {
+    font-size: 30pt;
+  }
+  .hero p {
+    font-size: 13pt;
+  }
+  /** ABOUT **/
+  .aboutContainer {
+    width: 90%;
+  }
+  .about {
+    padding: 25px 0;
+  }
+  .about h3 {
+    font-size: 30pt;
+  }
+  .subHeading {
+    font-size: 15pt;
+  }
+  .info {
+    font-size: 11pt;
+  }
+  .formatInfo {
+    font-size: 10pt;
+  }
+  .skillTitle {
+    font-size: 13pt;
+  }
+  .skillSubTitle {
+    font-size: 10pt;
+  }
+  .skills img {
+    max-width:60px;
+  }
+  /** WORK **/
+  .work h4 {
+    font-size: 30pt;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .workBg {
+    height: 100%;
+  }
+  /** CONTACT **/
+  .contact h5 {
+    font-size: 30pt;
+  }
+  .contact p {
+    font-size: 15pt;
+  }
+  /** FOOTER **/
+  .footer {
+      margin: 40px 0 10px 0;
+  }
+  .footer a {
+    float: none;
+  }
+  .footer {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
