@@ -1,4 +1,8 @@
 /** Blanket Statements **/
+.float-right {
+  float: right!important;
+}
+
 .squash {
   margin: 0 100px;
 }
@@ -11,13 +15,23 @@
     text-decoration: none;
     display: inline-block;
     font-size: 12.5pt;
-    -webkit-transition-duration: 0.4s;
-   transition-duration: 0.4s;
+    box-shadow: 0px 5px #4ba3a0;
+    border-radius: 5px;
 }
 .button:hover {
   text-decoration: none;
   color: white;
+  background-color: #60D6D3;
+}
+.button:active {
+  text-decoration: none;
+  color: white;
   background-color: #4ba3a0;
+  transform: translateY(5px);
+}
+.button:visited {
+  text-decoration: none;
+  color: white;
 }
 .col {
   width: 33%;
@@ -33,6 +47,44 @@
 }
 .visible {
   display: block;
+}
+/** Header **/
+header {
+  min-height: 60px;
+  background-color: rgba(0,0,0,0.2);
+  padding: 0 15%;
+  color: white;
+}
+
+header p {
+  font-family: 'Open Sans', sans-serif!important;
+  font-weight: bold;
+  font-size: 17.5pt;
+  line-height: 60px;
+  text-shadow: 2px 2px 1px black;
+}
+
+header .header-icon-container {
+  padding-top: 10px;
+}
+
+header .header-icon {
+  float: right;
+  font-size: 40px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.1s ease;
+}
+
+header a:visited {
+  color: white
+}
+
+header a:hover {
+  color: grey;
 }
 /** Hero ***/
 .heroBg {
@@ -74,11 +126,13 @@
   font-weight: bold;
   font-size: 45pt;
 }
-.subHeading {
+.about-sub-heading {
+  padding-top: 10px;
   font-family: 'Bree Serif', serif;
   font-size: 20pt;
 }
-.info {
+.about-info {
+  padding-top: 15px;
   font-family: 'Open Sans', sans-serif;
   font-size: 15pt;
 }
@@ -100,11 +154,12 @@
   opacity: 0.5;
   font-style: italic;
 }
-.designDets, .passionDets {
-  display: none;
-}
 .skills {
   margin-bottom: 25px;
+}
+.skill-row {
+  margin-bottom: 20px;
+  background-color: none;
 }
 /** Work **/
 .workBg {
@@ -146,68 +201,23 @@
   margin-left: auto;
   margin-bottom: 20px;
 }
-/** Contact **/
-.contact h5 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  font-size: 70pt;
-  color: black;
-  text-align: center;
-  margin: 40px 0 20px 0;
-}
-.contact p {
-  font-family: 'Bree Serif', serif;
-  font-size: 20pt;
-  color: #222222;
-  text-align: center;
-}
-form {
-  max-width: 650px;
-  margin: 0 auto;
-  color: #222222;
-  padding-bottom: 25px;
-}
-form label {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 10pt;
-}
-form button {
-  text-align: center;
-}
-input[type=text] {
-    border: none;
-    color: #222222;
-}
-input[type=email] {
-    border: none;
-    color: #222222;
-}
-.messageStyle {
-  border: none;
-  color: #222222;
-}
-button {
-  display: block;
-  margin: 0 auto;
-}
 /** Footer **/
 .footerBg {
   background-color: #222222;
 }
 .footer {
     margin: 40px 200px 10px 200px;
+    min-height: 75px;
 }
 .footer p {
   font-family: 'Open Sans', sans-serif;
   font-size: 10pt;
   color: white;
+  line-height: 75px;
 }
-.footer a {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 10pt;
-  text-decoration: none;
-  color: white;
-  float: right;
+
+.heart-icon {
+  color: red;
 }
 /** TABLET RESPONSIVE **/
 @media only screen and (max-width: 970px) and (min-width: 769px)  {
@@ -294,6 +304,9 @@ button {
   .head a {
     font-size: 13pt;
   }
+  header .header-icon {
+    float:none!important;
+  }
   /** HERO **/
   .hero {
     padding: 100px 0 100px 0;
@@ -358,5 +371,8 @@ button {
   .footer {
     text-align: center;
     margin-bottom: 25px;
+  }
+  .back-to-top-button {
+    float: none!important;
   }
 }
